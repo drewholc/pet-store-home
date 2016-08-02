@@ -11,7 +11,6 @@
 
 </head>
 <body>
-	<!--==================================NAV BAR===========================-->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 logo1">
@@ -20,88 +19,82 @@
 			</div><!--end of col-md-4-->
 			<div class="col-md-4 col-md-offset-4">
 				<ul class="nav nav-pills pull-right">
-					<li role="presentation" class="home"><a href="#">Home</a></li>
+					<li role="presentation" class="active"><a href="#">Home</a></li>
 					<li role="presentation" class="products"><a href="#">Products</a></li>
-					<li role="presentation" class="active"><a href="#">Contact Us</a></li>
+					<li role="presentation" class="contactUs"><a href="#">Contact Us</a></li>
 				</ul><!--end of nav-->
 			</div><!--end of col-md-4 col-md-offset-4-->
 		</div><!--end of row-->
 	</div><!--end of container-->
-	<!--==================================NAV BAR ABOVE===========================-->
-
-<div class="container"><!--middle container-->
-	<div class="row"><!--row middle-->
-		<div class="col-md-7"><!--left middle-->
-			<div class="row"><!--male dr. row-->
-				<div class="col-md-4">
-					<img src="img/doctor1.jpg" alt="male doctor" class="doc-img">
+	<div class="container-fluid"><!--container fluid-->
+		<div class="jumbotron">
+		  <div class="container-fluid">
+		    <div class="hero-img image-responsive"/>
+					<p class="hero-text center-block">The products they love. Prices that you like.<p>
 				</div>
-				<div class="col-md-7 docs text-up">
-					<h4>Dr. Joe Smith</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque cum ipsa voluptas mollitia maiores dicta fugit veniam voluptatibus placeat dolores, nisi asperiores, eius alias fuga eaque consectetur error minus ipsam!</p>
-				</div>
-			</div><!--end of male dr row-->
-			<div class="row"><!--female dr. row-->
-				<div class="col-md-4">
-					<img src="img/doctor2.jpg" alt="male doctor" class="doc-img">
-				</div>
-				<div class="col-md-7 docs text-up">
-					<h4>Dr. Jane Smith</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque cum ipsa voluptas mollitia maiores dicta fugit veniam voluptatibus placeat dolores, nisi asperiores, eius alias fuga eaque consectetur error minus ipsam!</p>
-				</div>
-			</div><!--end of male dr row-->
-			<div class="row col-md-10 docs"><!--table row-->
-				<table class="table">
-					<thead>
-						<tr>
-							<th>Department</th>
-							<th>Phone Number</th>
-							<th>Extension</th>
-						</tr>
-					</thead>
-						<tbody>
-							<tr>
-								<td>Register</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Dog Toys</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Cat Stuf</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Parrot Stuff</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-							<tr>
-								<td>Vet</td>
-								<td>834-987-0989</td>
-								<td>x890</td>
-							</tr>
-						</tbody>
-				</table><!--end of tabl row-->
-			</div>
+		  </div><!--end of container-fluid-->
+		</div><!--end of jumbotron-->
+	</div><!--end of container fluid-->
 
-		</div>	<!--end of left middle-->
+<div class="container"><!--container-->
+	<div class="row"><!--row-->
+		<div class="col-md-7"><!--featured-->
+			<h2 class="featured-text" >Featured</h2>
+				<p class="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			<div class="row"><!--inner row for row-->
+  			<div class="col-sm-6 col-md-4"><!--featured 1-->
+  			  <div class="thumbnail">
+  			    <img src="img/product1.jpg" alt="Dog Bowl" class="image-responsive">
+  			    <div class="caption justify">
+  			      <h3>Dog Bowl</h3>
+  			      <p>The  best  dog  bowl for your dog.</p>
+  			      <p><a href="#" class="btn btn-primary" role="button">Purchase Now</a></p>
+  			    </div>
+  			  </div><!--end of thumbnail-->
+				</div><!--end of featured 1-->
+				<div class="col-sm-6 col-md-4"><!--featured 2-->
+					<div class="thumbnail">
+						<img src="img/product2.jpg" alt="Cat Toy" class="image-responsive">
+						<div class="caption justify">
+							<h3>Cat Toy</h3>
+							<p>The best cat toy for your favorite cat.</p>
+							<p><a href="#" class="btn btn-primary" role="button">Purchase Now</a></p>
+						</div>
+					</div><!--end of thumbnail-->
+				</div><!--end of featured 2-->
+				<div class="col-sm-6 col-md-4"><!--featured 3-->
+					<div class="thumbnail">
+						<img src="img/product3.jpg" alt="Parrot Stuff" class="image-responsive">
+						<div class="caption">
+							<h3 class="justify">Parrot Stuff</h3>
+							<p class="justify">The best parrot stuff for your parrot.</p>
+							<p><a href="#" class="btn btn-primary" role="button">Purchase Now</a></p>
+						</div>
+					</div><!--end of thumbnail-->
+				</div><!--end of featured 3-->
 
+			</div><!--end of row-->
+		</div><!--end of featured-->
 
-		<div class="col-md-5"> <!--maps-->
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604061093971!2d-119.78796568528152!3d36.73206927923265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f5cb43%3A0xe56ff4273de1051!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1468554340556" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div><!-- end of maps-->
+		<div class="col-md-3 col-md-offset-2 adopt-text"><!--services-->
+			<h2 class="featured-text">Services</h2>
+				<div class="row"><!--adopt a cat-->
+					<a href="#" class="upper-text">Adopt a Cat</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<p>
+				</div><!--end of adopt a cat-->
+				<div class="row"><!--adopt a dog-->
+					<a href="#" class="upper-text">Adopt a Dog</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<p>
+				</div><!--end of adopt a dog-->
+				<div class="row"><!--adopt a fish-->
+					<a href="#" class="upper-text">Adopt a Fish</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<p>
+				</div><!--end of adopt a fish-->
+		</div><!--end of services-->
+	</div><!--end of row-->
+</div><!--end of container-->
 
-
-	</div><!--end of row middle-->
-</div><!--end of middle container-fluid-->
-
-<!--=========================FOOTER BEGINS======================================-->
-<div class="container-fluid footer"><!-- footer container-fluid-->
+<div class="container-fluid footer"><!-- container-->
 	<div class="row inner-footer"><!--footer row-->
 		<div class="col-md-3 footer-image center-block"> <!-- footer logo2-->
 			<img src="img/petstore_logo.png" alt="PetStore Logo" class="logo2 center-block">
@@ -129,8 +122,7 @@
 	<div class="row text-center caption"> <!--caption row-->
 		<caption>&copy;Pet Store, Inc. All rights reserved</caption>
 	</div><!--end of caption row-->
-</div><!--end of footer container-->
-<!--=========================FOOTER ENDS======================================-->
+</div><!--end of container-->
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
