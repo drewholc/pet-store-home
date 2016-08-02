@@ -44,13 +44,13 @@
         color:#6BB3E7;
         font-weight: 700;
 }
-.nav-pills > li.home > a, .nav-pills > li.contactUs > a:focus {
+.nav-pills > li.contactUs > a, .nav-pills > li.contactUs > a:focus {
         color: #6BB3E7;
         background-color: transparent;
         font-weight: 700;
 }
 
-.nav-pills > li.home > a:hover {
+.nav-pills > li.contactUs > a:hover {
         background-color: transparent;
         color:#6BB3E7;
         font-weight: 700;
@@ -82,46 +82,64 @@
   padding-top: 4%;
 }
 
-/*============middle=====================*/
-.doc-img {
-  height:150px;
-  weight::150px;
-  margin-left: 50px;
-  margin-top: 20px;
+.jumbotron {
+  padding-top:0px;
+  padding-bottom: 0px;
 }
 
-h4 {
-  font-weight: bolder;
+/*products*/
+
+.thumbnail{
+  background-color:#e7e7e7;
+  border: 20px;
 }
 
-.docs {
+.thumbnail caption{
+  padding:12px;
+  margin-bottom: 0px;
+}
+
+
+.featured-text {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/*services*/
+.col-md-offset {
+  margin-left: 40px;
+}
+.adopt-text {
+  text-align:center;
+  line-height: 24px;
+}
+.upper-text {
+  text-transform: uppercase;
+}
+
+.caption {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+p {
+  font-size: 14px;
   font-family: 'Lato', sans-serif;
 }
 
-.text-up {
-  padding-top: 40px;
-}
-
-.table {
-  margin-left: 50px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-}
-
-.th {
-  font-weight: bolder;
-}
-
-
-
-iframe {
-  margin-top: 25px;
+.adpot-text {
+  line-height: 2em;
 }
 
 /*footer*/
 .footer {
   background-color:#231F20;
-  margin-top: 25px;
+  margin-top: 50px;
   height: 150px;
   margin-bottom: 15px;
   color:#A9A9AA;
